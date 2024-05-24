@@ -54,7 +54,15 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
          `npm install @react-navigation/native @react-navigation/stack`
          `npm install @react-native-community/masked-view`
          `npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context`
-
+         `npm install @expo/vector-icons@^14.0.0`
+         `npm install react-native-paper@4.9.2`
+         `npm install react-native-reanimated@~3.6.2`
+         `npm install react-native-safe-area-context@4.8.2`
+         `npm install @react-navigation/drawer@5.14.7`
+         `npm install @react-navigation/drawer@latest`
+         `npm install @react-navigation/bottom-tabs@latest`
+         `npm install @react-navigation/bottom-tabs@5.14.7`
+         
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor siga estas etapas:
