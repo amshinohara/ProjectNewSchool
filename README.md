@@ -62,6 +62,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
          `npm install @react-navigation/drawer@latest`
          `npm install @react-navigation/bottom-tabs@latest`
          `npm install @react-navigation/bottom-tabs@5.14.7`
+         `npm install react-native-picker-select`
          
 ## Contribuição
 
