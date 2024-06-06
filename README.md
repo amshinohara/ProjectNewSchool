@@ -19,7 +19,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 ## Configuração do Ambiente de Desenvolvimento
 
 1. Instalação do VSCode:
- - Faça o download e instale o Visual Studio Code a partir do site oficial: Download VSCode: [https:/](https://code.visualstudio.com/)
+ - Faça o download e instale o Visual Studio Code a partir do site oficial: Download VSCode: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 2. Instale as seguintes extensões recomendadas:
    - **ESLint**
@@ -31,7 +31,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 3. Instalação das Bibliotecas e Frameworks Necessários:
 
    1. **Node.js e npm**:
-      - Faça o download e instale o Node.js a partir do site oficial: [https:/](https://nodejs.org/)
+      - Faça o download e instale o Node.js a partir do site oficial: [https://nodejs.org/](https://nodejs.org/)
       - Verifique a instalação usando os seguintes comandos:
       ```bash
       node -v
@@ -92,7 +92,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 ## Instruções de Instalação e Execução da Aplicação Usando snack.expo.dev
 
    1. **Criação de Conta no Snack Expo**:
-     - Acesse o site:  [https:/](https://expo.dev/)
+     - Acesse o site:  [https://expo.dev/](https://expo.dev/)
      - Se você já tiver uma conta Expo, clique em "Log In" no canto superior direito e faça login com suas credenciais. Caso contrário, clique em "Sign Up" para criar uma nova conta e siga as instruções fornecidas para completar o processo de criação da conta.
 
    2. **Criação de um Novo Projeto**:
@@ -103,7 +103,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
    3. **Inserir Código no Projeto**:
      - No editor do Snack, você verá vários arquivos padrão como App.js, package.json, entre outros.
      - Neste local, clique nos três pontinhos e clique em "Import git repository".
-     - Cole o repositório do projeto [[https:/](https://github.com/amshinohara/ProjectNewSchool)] no local indicado e clique em "Import repository".
+     - Cole o repositório do projeto [[https://github.com/amshinohara/ProjectNewSchool](https://github.com/amshinohara/ProjectNewSchool)] no local indicado e clique em "Import repository".
 
    4. **Configuração de Dependências**:
      - No editor do Snack, na barra inferior da tela clique em "Add dependency" para instalar as dependências necessárias.
