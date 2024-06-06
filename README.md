@@ -82,12 +82,12 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
       npm install react-native-picker-select
       ```
 
-   6. **Inicialização do Expo**
-     - Inicie o ambiente de desenvolvimento do Expo executando o seguinte comando:
-     ```bash
-     expo start
-     npx start
-     ```
+   6. **Inicialização do Expo**:
+      - Inicie o ambiente de desenvolvimento do Expo executando o seguinte comando:
+      ```bash
+      expo start
+      npx start
+      ```  
 
 ## Instruções de Instalação e Execução da Aplicação Usando snack.expo.dev
 
