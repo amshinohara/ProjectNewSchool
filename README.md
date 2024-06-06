@@ -119,6 +119,22 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
    - Você verá um QR code. Escaneie o QR code com o aplicativo Expo Go instalado no seu dispositivo móvel (disponível na App Store e Google Play Store).
    - O aplicativo será carregado no seu dispositivo.
 
+## Especificação Técnica do Projeto
+
+1. Linguagem de Programação
+   - JavaScript: O projeto foi desenvolvido em JavaScript, uma linguagem de programação amplamente utilizada para desenvolvimento web e mobile devido à sua flexibilidade e capacidade de ser executada tanto no cliente quanto no servidor.
+     
+2. Frontend
+   - React Native com Expo: React Native: Uma biblioteca JavaScript criada pelo Facebook que é usada para desenvolver aplicativos móveis para iOS e Android. Utiliza componentes nativos em vez de componentes web, proporcionando uma experiência de usuário mais próxima do nativo.
+   - Expo: Um conjunto de ferramentas e serviços criados em torno do React Native que facilita o desenvolvimento, construção e implantação de aplicativos. O Expo fornece uma série de APIs e componentes prontos para uso, além de um ambiente de desenvolvimento simplificado.
+     
+3. Backend
+   - Node.js: Uma plataforma construída sobre o motor JavaScript V8 que permite a execução de código JavaScript no lado do servidor. Node.js é conhecido por sua capacidade de lidar com um grande número de conexões simultâneas com alta performance e eficiência.
+     
+4. Banco de Dados
+   - Firebase Firestore: Um banco de dados NoSQL oferecido pelo Firebase, que é uma plataforma de desenvolvimento de aplicativos móveis e web fornecida pelo Google. O Firestore é altamente escalável e flexível, permitindo armazenamento e sincronização de dados em tempo real.
+   - Autenticação com Firebase Authentication: Um serviço de autenticação fornecido pelo Firebase que facilita a implementação de autenticação de usuários. Oferece suporte a vários métodos de autenticação, incluindo e-mail/senha, autenticação de terceiros (Google, Facebook, etc.) e autenticação anônima.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor siga estas etapas:
