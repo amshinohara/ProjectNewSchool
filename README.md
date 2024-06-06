@@ -19,7 +19,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 ## Configuração do Ambiente de Desenvolvimento
 
 1. Instalação do VSCode:
- - Faça o download e instale o Visual Studio Code a partir do site oficial: Download VSCode: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+  - Faça o download e instale o Visual Studio Code a partir do site oficial: Download VSCode: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 2. Instale as seguintes extensões recomendadas:
    - **ESLint**
@@ -93,26 +93,26 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 
 
 1. Criação de Conta no Snack Expo:
- - Acesse o site:  [https://expo.dev/](https://expo.dev/)
- - Clique em "Snacks" no menu de acesso no lado esquerdo e em seguida clique em "New Snack" no canto superior direito para criar um novo projeto.
- - Um novo editor será aberto, já com um esqueleto básico de um aplicativo React Native.
+   - Acesse o site:  [https://expo.dev/](https://expo.dev/)
+   - Clique em "Snacks" no menu de acesso no lado esquerdo e em seguida clique em "New Snack" no canto superior direito para criar um novo projeto.
+   - Um novo editor será aberto, já com um esqueleto básico de um aplicativo React Native.
 
 2. Criação de um Novo Projeto:
- - Após fazer login, você será direcionado à página principal do Snack.
- - Clique em "Snacks" no menu de acesso no lado esquerdo e em seguida clique em "New Snack" no canto superior direito para criar um novo projeto.
- - Um novo editor será aberto, já com um esqueleto básico de um aplicativo React Native.
+   - Após fazer login, você será direcionado à página principal do Snack.
+   - Clique em "Snacks" no menu de acesso no lado esquerdo e em seguida clique em "New Snack" no canto superior direito para criar um novo projeto.
+   - Um novo editor será aberto, já com um esqueleto básico de um aplicativo React Native.
 
 3. Inserir Código no Projeto:
- - No editor do Snack, você verá vários arquivos padrão como App.js, package.json, entre outros.
- - Neste local, clique nos três pontinhos e clique em "Import git repository".
- - Cole o repositório do projeto [[https://github.com/amshinohara/ProjectNewSchool](https://github.com/amshinohara/ProjectNewSchool)] no local indicado e clique em "Import repository".
+   - No editor do Snack, você verá vários arquivos padrão como App.js, package.json, entre outros.
+   - Neste local, clique nos três pontinhos e clique em "Import git repository".
+   - Cole o repositório do projeto [[https://github.com/amshinohara/ProjectNewSchool](https://github.com/amshinohara/ProjectNewSchool)] no local indicado e clique em "Import repository".
 
 4. Configuração de Dependências:
- - No editor do Snack, na barra inferior da tela clique em "Add dependency" para instalar as dependências necessárias.
+   - No editor do Snack, na barra inferior da tela clique em "Add dependency" para instalar as dependências necessárias.
 
 5. Executando o Projeto:
- - Após adicionar o código e as dependências, clique em Save no canto superior direito do editor.
- - Em seguida, o aplicativo será exibido em um emulador diretamente no navegador, permitindo que você utilize o aplicativo em tempo real.
+   - Após adicionar o código e as dependências, clique em Save no canto superior direito do editor.
+   - Em seguida, o aplicativo será exibido em um emulador diretamente no navegador, permitindo que você utilize o aplicativo em tempo real.
  
 6. Teste no Dispositivo Móvel:
    - Para testar o aplicativo em um dispositivo físico, clique em "My Device" no canto superior direito.
