@@ -19,7 +19,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 ## Configuração do Ambiente de Desenvolvimento
 
 1. Instalação do VSCode:
- - Faça o download e instale o Visual Studio Code a partir do site oficial: Download VSCode: https://code.visualstudio.com/
+ - Faça o download e instale o Visual Studio Code a partir do site oficial: Download VSCode: [https:/](https://code.visualstudio.com/)
 
 2. Instale as seguintes extensões recomendadas:
    - **ESLint**
@@ -31,7 +31,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 3. Instalação das Bibliotecas e Frameworks Necessários:
 
    1. **Node.js e npm**:
-      - Faça o download e instale o Node.js a partir do site oficial: https://nodejs.org/
+      - Faça o download e instale o Node.js a partir do site oficial: [https:/](https://nodejs.org/)
       - Verifique a instalação usando os seguintes comandos:
          `node -v`
          `npm -v`
@@ -43,27 +43,64 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
     3. **Inicialização do Projeto com Expo**:
        - Crie um novo projeto utilizando Expo:
          `expo init ProjectNewSchool`
+       -Selecionar blanck e aperte a tecla Enter para continuar, após acesse a pasta criada:
          `cd ProjectNewSchool`
 
-    4. **Instalação do Firebase**:
+    5. **Instalação do Firebase**:
        - Adicione o Firebase ao seu projeto
          `npm install firebase`
 
-    5. **Instalação de Outras Dependências**:
+    6. **Instalação de Outras Dependências**:
        - Instale as bibliotecas adicionais necessárias:
-         `npm install @react-navigation/native @react-navigation/stack`
-         `npm install @react-native-community/masked-view`
-         `npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context`
-         `npm install @expo/vector-icons@^14.0.0`
-         `npm install react-native-paper@4.9.2`
-         `npm install react-native-reanimated@~3.6.2`
-         `npm install react-native-safe-area-context@4.8.2`
-         `npm install @react-navigation/drawer@5.14.7`
-         `npm install @react-navigation/drawer@latest`
-         `npm install @react-navigation/bottom-tabs@latest`
-         `npm install @react-navigation/bottom-tabs@5.14.7`
-         `npm install react-native-picker-select`
-         
+        ```bash
+        expo install expo-constants
+        npm install @react-navigation/native @react-navigation/stack
+        npm install @react-native-community/masked-view
+        npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+        npm install @expo/vector-icons
+        npm install react-native-paper
+        npm install react-native-reanimated@latest
+        npm install react-native-safe-area-context
+        npm install @react-navigation/drawer
+        npm install @react-navigation/drawer
+        npm install @react-navigation/bottom-tabs
+        npm install react-native-picker-select
+        ```
+
+    7. **Inicialização do Expo**
+      - Inicie o ambiente de desenvolvimento do Expo executando o seguinte comando:
+        ```bash
+        expo start
+        npx start
+
+## Instruções de Instalação e Execução da Aplicação Usando snack.expo.dev
+
+    1. **Criação de Conta no Snack Expo**:
+      - Acesse o site:  [https:/](https://expo.dev/)
+      - Se você já tiver uma conta Expo, clique em "Log In" no canto superior direito e faça login com suas credenciais. Caso contrário, clique em "Sign Up" para criar uma nova conta e siga as instruções fornecidas para completar o processo de criação da conta.
+
+    2. **Criação de um Novo Projeto**:
+      - Após fazer login, você será direcionado à página principal do Snack.
+      - Clique em "Snacks" no menu de acesso no lado esquerdo e em seguida clique em "New Snack" no canto superior direito para criar um novo projeto.
+      - Um novo editor será aberto, já com um esqueleto básico de um aplicativo React Native.
+
+    3. **Inserir Código no Projeto**:
+      - No editor do Snack, você verá vários arquivos padrão como App.js, package.json, entre outros.
+      - Neste local, clique nos três pontinhos e clique em "Import git repository".
+      - Cole o repositório do projeto [[https:/](https://github.com/amshinohara/ProjectNewSchool)] no local indicado e clique em "Import repository".
+
+    4. **Configuração de Dependências**:
+      - No editor do Snack, na barra inferior da tela clique em "Add dependency" para instalar as dependências necessárias.
+
+    5. **Executando o Projeto**:
+      - Após adicionar o código e as dependências, clique em Save no canto superior direito do editor.
+      - Em seguida, o aplicativo será exibido em um emulador diretamente no navegador, permitindo que você utilize o aplicativo em tempo real.
+      
+    6. **Teste no Dispositivo Móvel**:
+      - Para testar o aplicativo em um dispositivo físico, clique em "My Device" no canto superior direito.
+      - Você verá um QR code. Escaneie o QR code com o aplicativo Expo Go instalado no seu dispositivo móvel (disponível na App Store e Google Play Store).
+      - O aplicativo será carregado no seu dispositivo.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor siga estas etapas:
