@@ -155,6 +155,22 @@ O desenvolvimento deste projeto aplicou algumas práticas de código limpo para 
 - **Simplificação de Condicionais**: Uso de condicionais simples e claras para melhorar a legibilidade do código.
 - **Revisão de Código**: O código foi revisado e refatorado para melhorar a sua legibilidade.
 
+## Padrão de Projeto Utilizado:
+
+### Context API (State Management)
+
+1. Descrição:
+   - O padrão Context API é um método para gerenciar o estado global em uma aplicação React. Ele permite que dados sejam compartilhados entre componentes sem a necessidade de passar explicitamente props através da árvore de componentes. Isso é especialmente útil em aplicações React Native, onde múltiplos componentes podem precisar acessar e modificar o mesmo estado global.
+
+2. Aplicação no Projeto:
+   - No projeto, o Context API é utilizado para gerenciar o estado de autenticação do usuário. O estado de autenticação (autenticado) é compartilhado entre vários componentes, permitindo que a aplicação controle o acesso a diferentes telas e funcionalidades com base no status de login do usuário.
+
+3. Benefícios:
+   - Permite que o estado de autenticação seja centralizado, facilitando o gerenciamento e a consistência dos dados.
+   - Evita a necessidade de passar props manualmente através de múltiplos níveis da árvore de componentes.
+   - Facilita a manutenção e a escalabilidade do código, já que o estado global é gerenciado em um único lugar.
+   - Ao utilizar o Context API para gerenciar o estado de autenticação, o projeto adota um padrão de projeto de software que melhora a estrutura e a organização do código, resultando em uma aplicação mais robusta e fácil de manter.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor siga estas etapas:
