@@ -72,6 +72,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
         ```bash
         expo start
         npx start
+        ```
 
 ## Instruções de Instalação e Execução da Aplicação Usando snack.expo.dev
 
