@@ -91,7 +91,6 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
 
 ## Instruções de Instalação e Execução da Aplicação Usando snack.expo.dev
 
-
 1. Criação de Conta no Snack Expo:
    - Acesse o site:  [https://expo.dev/](https://expo.dev/)
    - Clique em "Snacks" no menu de acesso no lado esquerdo e em seguida clique em "New Snack" no canto superior direito para criar um novo projeto.
@@ -118,6 +117,12 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
    - Para testar o aplicativo em um dispositivo físico, clique em "My Device" no canto superior direito.
    - Você verá um QR code. Escaneie o QR code com o aplicativo Expo Go instalado no seu dispositivo móvel (disponível na App Store e Google Play Store).
    - O aplicativo será carregado no seu dispositivo.
+
+## Acesso ao projeto:
+
+O projeto desta aplicação está salvo e pode ser acessada através do seguinte link:
+
+[https://snack.expo.dev/@amshinohara/newschool-](https://snack.expo.dev/@amshinohara/newschool-)
 
 ## Especificação Técnica do Projeto
 
