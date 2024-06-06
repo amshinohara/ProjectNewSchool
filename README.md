@@ -56,13 +56,13 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
       cd ProjectNewSchool
       ```
 
-   5. **Instalação do Firebase**:
+   4. **Instalação do Firebase**:
       - Adicione o Firebase ao seu projeto
       ```bash
       npm install firebase
       ```
 
-   6. **Instalação de Outras Dependências**:
+   5. **Instalação de Outras Dependências**:
       - Instale as bibliotecas adicionais necessárias:
       ```bash
       expo install expo-constants
@@ -82,7 +82,7 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
       npm install react-native-picker-select
       ```
 
-   7. **Inicialização do Expo**
+   6. **Inicialização do Expo**
      - Inicie o ambiente de desenvolvimento do Expo executando o seguinte comando:
      ```bash
      expo start
