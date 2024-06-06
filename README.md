@@ -135,6 +135,26 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
    - Firebase Firestore: Um banco de dados NoSQL oferecido pelo Firebase, que é uma plataforma de desenvolvimento de aplicativos móveis e web fornecida pelo Google. O Firestore é altamente escalável e flexível, permitindo armazenamento e sincronização de dados em tempo real.
    - Autenticação com Firebase Authentication: Um serviço de autenticação fornecido pelo Firebase que facilita a implementação de autenticação de usuários. Oferece suporte a vários métodos de autenticação, incluindo e-mail/senha, autenticação de terceiros (Google, Facebook, etc.) e autenticação anônima.
 
+## Requisitos do Sistema
+
+- **Sistema Operacional**: Windows, macOS ou Linux
+- **Node.js**: Versão 14 ou superior
+- **npm**: Versão 6 ou superior
+- **Expo CLI**: Versão mais recente.
+- **Editor de Código**: Visual Studio ou outro de 
+- **Conexão com a Internet** para utilizar os serviços do Firebase
+
+## Práticas de Código Limpo
+
+O desenvolvimento deste projeto aplicou algumas práticas de código limpo para garantir um código de alta qualidade, legível e fácil de manter, incluindo:
+
+- **Nomeação Descritiva:**: Variáveis, funções e componentes têm nomes claros e descritivos que indicam seu propósito e uso.
+- **Funções Pequenas**: Funções são mantidas pequenas e focadas em uma única tarefa.
+- **Componentização**: O código foi modularizado em componentes reutilizáveis para promover a reutilização e facilitar a manutenção.
+- **Separação das Estruturas**: A lógica de negócio foi separada da apresentação, mantendo o código organizado e estruturado.
+- **Simplificação de Condicionais**: Uso de condicionais simples e claras para melhorar a legibilidade do código.
+- **Revisão de Código**: O código foi revisado e refatorado para melhorar a sua legibilidade.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor siga estas etapas:
