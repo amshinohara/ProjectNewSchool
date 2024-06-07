@@ -151,7 +151,7 @@ O projeto desta aplicação está salvo e pode ser acessada através do seguinte
 - **Node.js**: Versão 14 ou superior
 - **npm**: Versão 6 ou superior
 - **Expo CLI**: Versão mais recente.
-- **Editor de Código**: Visual Studio ou outro de 
+- **Editor de Código**: Visual Studio ou outro de sua preferência
 - **Conexão com a Internet** para utilizar os serviços do Firebase
 
 ## Práticas de Código Limpo
