@@ -11,6 +11,7 @@ Este projeto é uma aplicação de Gerenciamento de Notas de Alunos. A aplicaç�
 - **Backend**: Node.js
 - **Banco de Dados**: Firebase Firestore
 - **Autenticação**: Firebase Authentication
+- **Testes Automatizados**: Jest e React Native Testing Library.
 
 ## Objetivo da Aplicação
 
@@ -87,8 +88,8 @@ O objetivo desta aplicação é fornecer uma ferramenta simples e eficiente para
       ```bash
       expo start
       npx start
-      ```  
-
+      ```
+   
 ## Instruções de Instalação e Execução da Aplicação Usando snack.expo.dev
 
 1. Criação de Conta no Snack Expo:
@@ -140,6 +141,10 @@ O projeto desta aplicação está salvo e pode ser acessada através do seguinte
    - Firebase Firestore: Um banco de dados NoSQL oferecido pelo Firebase, que é uma plataforma de desenvolvimento de aplicativos móveis e web fornecida pelo Google. O Firestore é altamente escalável e flexível, permitindo armazenamento e sincronização de dados em tempo real.
    - Autenticação com Firebase Authentication: Um serviço de autenticação fornecido pelo Firebase que facilita a implementação de autenticação de usuários. Oferece suporte a vários métodos de autenticação, incluindo e-mail/senha, autenticação de terceiros (Google, Facebook, etc.) e autenticação anônima.
 
+5. Teste Automatizados
+   - Jest: Um framework de teste de JavaScript mantido pelo Facebook, com foco na simplicidade. Ele é amplamente utilizado para testar aplicações React e React Native devido às suas funcionalidades robustas e facilidade de configuração.
+   - React Native Testing Library: Uma extensão do React Testing Library para aplicações React Native. Ela promove práticas de teste que simulam o comportamento do usuário final, focando em interações com os elementos da interface do usuário
+
 ## Requisitos do Sistema
 
 - **Sistema Operacional**: Windows, macOS ou Linux
@@ -176,6 +181,63 @@ O desenvolvimento deste projeto aplicou algumas práticas de código limpo para 
    - Facilita a manutenção e a escalabilidade do código, já que o estado global é gerenciado em um único lugar.
    - Ao utilizar o Context API para gerenciar o estado de autenticação, o projeto adota um padrão de projeto de software que melhora a estrutura e a organização do código, resultando em uma aplicação mais robusta e fácil de manter.
 
+## Criação de Testes Automatizados para a Aplicação
+
+1. Instalação do Framework de Testes
+   - Primeiro, precisamos instalar o Jest, um popular framework de testes em JavaScript, junto com o React Native Testing Library:
+   ```bash
+   Copiar código
+   npm install --save-dev jest react-test-renderer @testing-library/react-native
+   npm install --save-dev react-test-renderer --legacy-peer-deps
+   npm audit fix
+   ```
+   
+2. Configuração do Jest
+   - Depois de instalar as dependências, crie ou atualize o arquivo jest.config.js na raiz do seu projeto com a seguinte configuração:
+   ```
+   module.exports = {
+     preset: 'react-native',
+     setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+     transformIgnorePatterns: [
+       'node_modules/(?!(jest-)?react-native|@react-native|@react-navigation|@expo|expo-.*|@unimodules|@redux-saga|@react-native-firebase|react-navigation)',
+     ],
+   };
+   ```
+ 
+3. Criação dos Testes Automatizados
+   - Organize seus testes em uma pasta dedicada. Por convenção, é utilizado a pasta __tests__ para armazenar os arquivos de testes. Crie esta pasta na raiz do projeto:
+   ```bash
+   - mkdir __tests__
+   ```
+
+   - Dentro desta pasta, crie os artefatos que serão utilizados testar o seu código, como por exemplo o artefato App.test.js:
+   ```
+   import React from 'react';
+   import { render } from '@testing-library/react-native';
+   import App from '../App';
+   
+   test('renders correctly', () => {
+     const { getByText } = render(<App />);
+     expect(getByText('Open up App.js to start working on your app!')).toBeTruthy();
+   });
+   ```
+
+4. Inclusão do Jest no packagr.json
+   - Adicione um script de teste no arquivo package.json:
+   ```bash
+   {
+     "scripts": {
+       "test": "jest"
+     }
+   }
+   ```
+  
+5. Executando os Testes
+   - Finalmente, para rodar os testes, use o comando:
+   ```bash
+   npm test
+   ```
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor siga estas etapas:
@@ -185,6 +247,7 @@ Contribuições são bem-vindas! Se você deseja contribuir com este projeto, po
 3. Faça commit das suas mudanças (`git commit -m 'Adiciona nova feature'`).
 4. Envie para o repositório remoto (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
+6. Caso encontre algum erro ou bug, sinta-se livre para criar uma Issue detalhando o problema para que possamos resolvê-lo.
 
 ## Licença
 
